@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy static website files to the default Nginx web directory
-COPY ./html /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # (Optional) Copy a custom Nginx configuration file
 # Uncomment the line below if you have a custom nginx.conf
